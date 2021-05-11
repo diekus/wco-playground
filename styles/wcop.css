@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.myTitlebar {
+    color: #FFFFFF;
+    background-color: #017AD5;
+    position: fixed;
+    left: env(titlebar-area-x, 0);
+    top: env(titlebar-area-y, 0);
+    width: env(titlebar-area-width, 100%);
+    height: env(titlebar-area-height, 40px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 1em;
+    -webkit-app-region: drag;
+    app-region: drag;
+}

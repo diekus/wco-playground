@@ -5,7 +5,7 @@
     "display": "standalone",
     "display_override": ["window-controls-overlay"],
     "background-color": "#FFFFFF",
-    "theme-color": "#1A91DA",
+    "theme-color": "#017AD5",
     "icons": [{
         "src": "images/wcop.png",
         "sizes": "512x512",
