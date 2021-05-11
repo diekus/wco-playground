@@ -1,0 +1,14 @@
+{
+    "name": "Window Controls Overly Playground",
+    "short_name": "WCO Playground",
+    "start_url": "index.html",
+    "display": "standalone",
+    "display_override": ["window-controls-overlay"],
+    "background-color": "#FFFFFF",
+    "theme-color": "#1A91DA",
+    "icons": [{
+        "src": "images/wcop.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }]
+}
