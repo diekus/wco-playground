@@ -1,7 +1,8 @@
-if('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/serviceworker.js').then(function(registration) {
-        console.log('SW generated succesfully');
+  
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./sw.js').then(function(registration) {
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
     }).catch(function(err) {
-        console.log('SW registration failed: ', err)
+      console.log('ServiceWorker registration failed: ', err);
     });
-}
+  }
