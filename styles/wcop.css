@@ -33,3 +33,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
 }
+
+.content {
+    margin-top: env(titlebar-area-height, 5rem);
+}
